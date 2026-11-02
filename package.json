@@ -1,0 +1,17 @@
+{
+  "name": "ukiyo-design-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Admin-only Telegram publishing assistant for UKIYO Studio",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.0",
+    "sharp": "^0.33.5"
+  }
+}
